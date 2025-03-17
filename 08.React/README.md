@@ -10,3 +10,6 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+Date : 15/03/2025
+description : This project is a Theme Switcher, we continue with the Context Api but we create a card and a button to toggle between Dark and Light mode, but beacause of some tailwindCss config issue the project seems to not work, all the functionality works and all the core things wich will make it possible through contect api work but just the ui is not able to display it, and since i understood the core concept of context api which is giving access to particular componets to access and variable or function without prop drilling , i couldn't be asked to fix that tailwind config issue😌
