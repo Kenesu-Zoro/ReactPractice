@@ -4,8 +4,8 @@ import { useTodo } from '../contexts';
 function TodoItem({ todo }) {
     
 const [isTodoEditable, setIsTodoEditable] = useState(false)
-const [todoMessage, setTodoMessage] = useState(todo.todo)
-const {deleteTodo, updateTodo, toggleCompleted} = useTodo(todo.todo)
+const [todoMessage, setTodoMessage] = useState(todo.text)
+const {deleteTodo, updateTodo, toggleCompleted} = useTodo()
 
 const editTodo = () => {
     updateTodo(todo.id, {...todo, todo: todoMessage})

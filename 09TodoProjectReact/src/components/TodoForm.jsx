@@ -9,7 +9,7 @@ function TodoForm() {
         e.preventDefault()
 
         if(!todo) return
-        addTodo( { /* id: {Date.now()} ( no need to give here because i gave it in App.jsx in addTodo*/ todo:todo , completed: false})
+        addTodo( { /* id: {Date.now()} ( no need to give here because i gave it in App.jsx in addTodo*/ text:todo , completed: false})
         setTodo("")
     }
 
