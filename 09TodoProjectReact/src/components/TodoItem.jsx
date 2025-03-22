@@ -8,7 +8,7 @@ const [todoMessage, setTodoMessage] = useState(todo.text)
 const {deleteTodo, updateTodo, toggleCompleted} = useTodo()
 
 const editTodo = () => {
-    updateTodo(todo.id, {...todo, todo: todoMessage})
+    updateTodo(todo.id, {...todo, text: todoMessage})
     setIsTodoEditable(false)
 }
 
