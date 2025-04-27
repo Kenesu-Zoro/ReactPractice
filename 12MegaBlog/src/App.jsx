@@ -4,6 +4,7 @@ import './App.css'
 import authService from "./appwrite/auth" 
 import {login , logout} from "./store/authSlice"
 import {Header, Footer} from "./components"
+import { Outlet } from "react-router-dom"
 
 
 
@@ -29,7 +30,7 @@ return !loading ? (
     <div className="w-full max-w-3xl mt-3 mx-auto text-center">
       <Header />
       <main className="my-8">
-         TODO:{/* <Outlet /> */}
+         TODO:<Outlet />
       </main>
       <Footer />
     </div>

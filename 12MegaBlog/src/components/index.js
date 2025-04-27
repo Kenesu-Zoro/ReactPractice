@@ -18,8 +18,6 @@ export {
     Footer,
     Container,
     Logo,
-    Input,
-    Select,
     Button,
     LogoutBtn,
     RTE,
@@ -27,5 +25,7 @@ export {
     Login,
     PostForm,
     PostCard,
-    AuthLayout
+    AuthLayout,
+    Input,
+    Select,
 }
